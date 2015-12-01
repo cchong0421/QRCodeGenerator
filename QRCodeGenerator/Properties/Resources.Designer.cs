@@ -59,5 +59,14 @@ namespace QRCodeGenerator.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   查詢類似 姓氏不可為空白 的當地語系化字串。
+        /// </summary>
+        internal static string NameIsNullOrEmptyMessage {
+            get {
+                return ResourceManager.GetString("NameIsNullOrEmptyMessage", resourceCulture);
+            }
+        }
     }
 }

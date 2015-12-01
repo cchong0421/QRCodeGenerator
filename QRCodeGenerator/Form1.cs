@@ -29,7 +29,7 @@ namespace QRCodeGenerator
         {
             if (string.IsNullOrEmpty(txtLastName.Text))
             {
-                MessageBox.Show("姓氏不可為空白");
+                MessageBox.Show(Properties.Resources.NameIsNullOrEmptyMessage);
                 return;
             }
 
